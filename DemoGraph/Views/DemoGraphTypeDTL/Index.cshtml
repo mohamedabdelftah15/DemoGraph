@@ -1,0 +1,126 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="display-4 mb-4">DemoGraph</h2>
+<div class="row">
+    <div class="col-sm-12">
+        <button type="button" class="btn btn-primary mb-5 " data-toggle="modal" data-target="#myModal" onclick="clearModal()">+</button>
+    </div>
+</div>
+<table class="table table-bordered table-hover table-striped text-center" style="margin-top:20px" id="myTable">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+            <th>
+                Type Description(AR)
+            </th>
+            <th>
+                Type Description(EN)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="mainTableTBody"></tbody>
+</table>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header text-left">
+                <h4 class="modal-title" id="myModalLabel">Add Demo Graph Type</h4>
+                <button type="button" class="close" data-dismiss="modal">X</button>
+
+            </div>
+            <div class="modal-body">
+                <form enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>Demo Graph Type</legend>
+                        <div class="form-group">
+                            <input type="hidden" class="form-control" id="TypeID" />
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="TypeAR" placeholder="Demographic Type Description AR">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="TypeEN" placeholder="Demographic Type Description EN">
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Details</legend>
+                        <div class="form-group">
+                            <input type="hidden" class="form-control" id="ID" />
+                        </div>
+                        @*<div class="form-row">
+                            <div class="form-group col-md-4">
+                                <input type="text" class="form-control" id="AnswerAR" placeholder="AnswerAR" />
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" class="form-control" id="AnswerEN" placeholder="AnswerEN" />
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" class="form-control" id="Weight" placeholder="Weight" />
+                            </div>
+                        </div>*@
+                    <table class="table table-bordered table-hover table-striped text-center" id="DemoGraphDTL">
+                        <thead>
+                            <tr class="text-center">
+                                <th>
+                                    Answer Description (AR)
+                                </th>
+                                <th>
+                                    Answer Description (EN)
+                                </th>
+                                <th>
+                                    Weight
+                                </th>
+                                @*<th></th>*@
+                            </tr>
+                        </thead>
+                        
+                        <tbody id="DemoGraphDTLTBody" class="text-center">
+                            <tr>
+                                <td><input type="text" class="form-control AnswerAR" placeholder="AnswerAR" /></td>
+
+                                <td><input type="text" class="form-control AnswerEN" placeholder="AnswerEN" /></td>
+
+                                <td><input type="text" class="form-control Weight" placeholder="Weight" /></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr id="addBtnRow">
+                                <td></td>
+                                <td><button type="button" class="btn btn-primary" onclick="return RemoveDataFromDemoGraph();">-</button></td>
+                                <td><button type="button" class="btn btn-primary" onclick="return AddDataToDemoGraph();">+</button></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    </fieldset>
+                      
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="saveBtn" onclick="return AddORUpdateDemoGraph();">Save</button>
+                
+                <button type="button" class="btn btn-primary" id="resetBtn" onclick="clearModal()">Reset</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/CustomJS/DemoGraph.js"></script>
+}
+
+
+
+

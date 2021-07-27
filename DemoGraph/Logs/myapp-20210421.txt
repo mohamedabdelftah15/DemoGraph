@@ -1,0 +1,513 @@
+2021-04-21T09:29:20.4398825+02:00 0HM84ISMRP4SC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/   (ca22a1cb)
+2021-04-21T09:29:20.4398520+02:00 0HM84ISMRP4SD:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:51749/  0 (ca22a1cb)
+2021-04-21T09:29:20.5081431+02:00 0HM84ISMRP4SD:00000001 [INF] Request finished in 56.7455ms 200  (791a596a)
+2021-04-21T09:29:20.6362696+02:00 0HM84ISMRP4SC:00000001 [INF] Route matched with "{action = \"Index\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:29:20.7562806+02:00 0HM84ISMRP4SC:00000001 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:29:20.7614796+02:00 0HM84ISMRP4SC:00000001 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4922ms. (50a9e262)
+2021-04-21T09:29:20.7815923+02:00 0HM84ISMRP4SC:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-04-21T09:29:20.9887964+02:00 0HM84ISMRP4SC:00000001 [INF] Executed ViewResult - view "Index" executed in 219.059ms. (f66409e9)
+2021-04-21T09:29:20.9910048+02:00 0HM84ISMRP4SC:00000001 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" in 352.6865ms (afa2e885)
+2021-04-21T09:29:20.9979754+02:00 0HM84ISMRP4SC:00000001 [INF] Request finished in 564.9309ms 200 text/html; charset=utf-8 (791a596a)
+2021-04-21T09:29:21.0214024+02:00 0HM84ISMRP4SE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/css/site.css   (ca22a1cb)
+2021-04-21T09:29:21.0229972+02:00 0HM84ISMRP4SC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/jquery/dist/jquery.js   (ca22a1cb)
+2021-04-21T09:29:21.0237954+02:00 0HM84ISMRP4SD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2021-04-21T09:29:21.0329702+02:00 0HM84ISMRP4SC:00000002 [INF] The file "/lib/jquery/dist/jquery.js" was not modified (f1f8d725)
+2021-04-21T09:29:21.0345039+02:00 0HM84ISMRP4SD:00000002 [INF] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified (f1f8d725)
+2021-04-21T09:29:21.0351042+02:00 0HM84ISMRP4SE:00000001 [INF] The file "/css/site.css" was not modified (f1f8d725)
+2021-04-21T09:29:21.0415458+02:00 0HM84ISMRP4SD:00000002 [INF] Request finished in 18.7193ms 304 text/css (791a596a)
+2021-04-21T09:29:21.0434272+02:00 0HM84ISMRP4SC:00000002 [INF] Request finished in 18.5934ms 304 application/javascript (791a596a)
+2021-04-21T09:29:21.0447117+02:00 0HM84ISMRP4SE:00000001 [INF] Request finished in 18.7193ms 304 text/css (791a596a)
+2021-04-21T09:29:21.0491950+02:00 0HM84ISMRP4SE:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2021-04-21T09:29:21.0515435+02:00 0HM84ISMRP4SE:00000002 [INF] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified (f1f8d725)
+2021-04-21T09:29:21.0539426+02:00 0HM84ISMRP4SE:00000002 [INF] Request finished in 4.7437ms 304 application/javascript (791a596a)
+2021-04-21T09:29:21.0547212+02:00 0HM84ISMRP4SD:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44382/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2021-04-21T09:29:21.0567223+02:00 0HM84ISMRP4SD:00000003 [INF] The file "/js/site.js" was not modified (f1f8d725)
+2021-04-21T09:29:21.0598039+02:00 0HM84ISMRP4SD:00000003 [INF] Request finished in 5.1148ms 304 application/javascript (791a596a)
+2021-04-21T09:29:21.0650876+02:00 0HM84ISMRP4SC:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44382/CustomJS/DemoGraph.js   (ca22a1cb)
+2021-04-21T09:29:21.0745133+02:00 0HM84ISMRP4SC:00000003 [INF] Sending file. Request path: '"/CustomJS/DemoGraph.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\CustomJS\DemoGraph.js"' (27b0a520)
+2021-04-21T09:29:21.0793885+02:00 0HM84ISMRP4SC:00000003 [INF] Request finished in 14.059ms 200 application/javascript (791a596a)
+2021-04-21T09:29:21.2228027+02:00 0HM84ISMRP4SE:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphType/GetAll  0 (ca22a1cb)
+2021-04-21T09:29:21.2336328+02:00 0HM84ISMRP4SE:00000003 [INF] Route matched with "{action = \"GetAll\", controller = \"DemoGraphType\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAll()" on controller "DemoGraph.Controllers.DemoGraphTypeController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:29:21.2358086+02:00 0HM84ISMRP4SE:00000003 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:29:21.3902304+02:00 0HM84ISMRP4SE:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:29:21.5649536+02:00 0HM84ISMRP4SE:00000003 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemoTypeID], [e].[TypeDescAR], [e].[TypeDescEN]
+FROM [DemographicType] AS [e]
+WHERE [e].[IsDeleted] = 0" (0723d8ff)
+2021-04-21T09:29:21.5766044+02:00 0HM84ISMRP4SE:00000003 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 339.2028ms. (50a9e262)
+2021-04-21T09:29:21.5809938+02:00 0HM84ISMRP4SE:00000003 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:29:21.6305654+02:00 0HM84ISMRP4SE:00000003 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" in 394.8923ms (afa2e885)
+2021-04-21T09:29:21.6326394+02:00 0HM84ISMRP4SE:00000003 [INF] Request finished in 411.6358ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:30:30.2332588+02:00 0HM84ISMRP4SF:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/GetAllByTypeID application/x-www-form-urlencoded; charset=UTF-8 4 (ca22a1cb)
+2021-04-21T09:30:30.2498835+02:00 0HM84ISMRP4SF:00000001 [INF] Route matched with "{action = \"GetAllByTypeID\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllByTypeID(System.Nullable`1[System.Int32])" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:30:30.2775023+02:00 0HM84ISMRP4SF:00000001 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:30:30.2837145+02:00 0HM84ISMRP4SF:00000001 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:30:30.3054944+02:00 0HM84ISMRP4SF:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__id_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemTypeDTL_ID] AS [DemTypeDtlId], [e].[DemoTypeID], [e].[ChoiceAR], [e].[ChoiceEN], [e].[WeightValue], [e.DemoType].[TypeDescAR], [e.DemoType].[TypeDescEN]
+FROM [DemographicTypeDTL] AS [e]
+INNER JOIN [DemographicType] AS [e.DemoType] ON [e].[DemoTypeID] = [e.DemoType].[DemoTypeID]
+WHERE ([e].[DemoTypeID] = @__id_Value_0) AND ([e].[IsDeleted] = 0)" (0723d8ff)
+2021-04-21T09:30:30.3110825+02:00 0HM84ISMRP4SF:00000001 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 31.8731ms. (50a9e262)
+2021-04-21T09:30:30.3126607+02:00 0HM84ISMRP4SF:00000001 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeDtlVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:30:30.3169240+02:00 0HM84ISMRP4SF:00000001 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" in 65.4593ms (afa2e885)
+2021-04-21T09:30:30.3192985+02:00 0HM84ISMRP4SF:00000001 [INF] Request finished in 86.7829ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:31:22.5925969+02:00 0HM84ISMRP4SF:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/   (ca22a1cb)
+2021-04-21T09:31:22.5943011+02:00 0HM84ISMRP4SF:00000002 [INF] Route matched with "{action = \"Index\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:31:22.5957237+02:00 0HM84ISMRP4SF:00000002 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:31:22.5970052+02:00 0HM84ISMRP4SF:00000002 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0529ms. (50a9e262)
+2021-04-21T09:31:22.5986091+02:00 0HM84ISMRP4SF:00000002 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-04-21T09:31:22.6100156+02:00 0HM84ISMRP4SF:00000002 [INF] Executed ViewResult - view "Index" executed in 11.2219ms. (f66409e9)
+2021-04-21T09:31:22.6117038+02:00 0HM84ISMRP4SF:00000002 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" in 15.7288ms (afa2e885)
+2021-04-21T09:31:22.6133425+02:00 0HM84ISMRP4SF:00000002 [INF] Request finished in 21.0269ms 200 text/html; charset=utf-8 (791a596a)
+2021-04-21T09:31:22.6252357+02:00 0HM84ISMRP4SF:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44382/css/site.css   (ca22a1cb)
+2021-04-21T09:31:22.6270027+02:00 0HM84ISMRP4SG:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2021-04-21T09:31:22.6287574+02:00 0HM84ISMRP4SH:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/jquery/dist/jquery.js   (ca22a1cb)
+2021-04-21T09:31:22.6305488+02:00 0HM84ISMRP4SI:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2021-04-21T09:31:22.6334828+02:00 0HM84ISMRP4SJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2021-04-21T09:31:22.6370734+02:00 0HM84ISMRP4SI:00000001 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\js\site.js"' (27b0a520)
+2021-04-21T09:31:22.6386930+02:00 0HM84ISMRP4SI:00000001 [INF] Request finished in 8.1058ms 200 application/javascript (791a596a)
+2021-04-21T09:31:22.6402986+02:00 0HM84ISMRP4SK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/CustomJS/DemoGraph.js   (ca22a1cb)
+2021-04-21T09:31:22.6423276+02:00 0HM84ISMRP4SK:00000001 [INF] Sending file. Request path: '"/CustomJS/DemoGraph.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\CustomJS\DemoGraph.js"' (27b0a520)
+2021-04-21T09:31:22.6439334+02:00 0HM84ISMRP4SK:00000001 [INF] Request finished in 3.4273ms 200 application/javascript (791a596a)
+2021-04-21T09:31:22.7123314+02:00 0HM84ISMRP4SF:00000003 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\css\site.css"' (27b0a520)
+2021-04-21T09:31:22.7142593+02:00 0HM84ISMRP4SF:00000003 [INF] Request finished in 89.8793ms 200 text/css (791a596a)
+2021-04-21T09:31:23.0294445+02:00 0HM84ISMRP4SJ:00000001 [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\bootstrap\dist\js\bootstrap.js"' (27b0a520)
+2021-04-21T09:31:23.0323348+02:00 0HM84ISMRP4SG:00000001 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2021-04-21T09:31:23.0347100+02:00 0HM84ISMRP4SJ:00000001 [INF] Request finished in 398.7142ms 200 application/javascript (791a596a)
+2021-04-21T09:31:23.0355902+02:00 0HM84ISMRP4SG:00000001 [INF] Request finished in 407.0852ms 200 text/css (791a596a)
+2021-04-21T09:31:23.0693074+02:00 0HM84ISMRP4SH:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2021-04-21T09:31:23.0713749+02:00 0HM84ISMRP4SH:00000001 [INF] Request finished in 442.0767ms 200 application/javascript (791a596a)
+2021-04-21T09:31:23.0859592+02:00 0HM84ISMRP4SI:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphType/GetAll  0 (ca22a1cb)
+2021-04-21T09:31:23.0883263+02:00 0HM84ISMRP4SK:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/favicon.ico   (ca22a1cb)
+2021-04-21T09:31:23.0899351+02:00 0HM84ISMRP4SI:00000002 [INF] Route matched with "{action = \"GetAll\", controller = \"DemoGraphType\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAll()" on controller "DemoGraph.Controllers.DemoGraphTypeController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:31:23.0917820+02:00 0HM84ISMRP4SI:00000002 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:31:23.0935042+02:00 0HM84ISMRP4SI:00000002 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:31:23.0968966+02:00 0HM84ISMRP4SI:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemoTypeID], [e].[TypeDescAR], [e].[TypeDescEN]
+FROM [DemographicType] AS [e]
+WHERE [e].[IsDeleted] = 0" (0723d8ff)
+2021-04-21T09:31:23.0987330+02:00 0HM84ISMRP4SI:00000002 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 5.2032ms. (50a9e262)
+2021-04-21T09:31:23.1017664+02:00 0HM84ISMRP4SI:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:31:23.1036214+02:00 0HM84ISMRP4SI:00000002 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" in 11.9413ms (afa2e885)
+2021-04-21T09:31:23.1053097+02:00 0HM84ISMRP4SI:00000002 [INF] Request finished in 20.4214ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:31:23.1124709+02:00 0HM84ISMRP4SK:00000002 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\favicon.ico"' (27b0a520)
+2021-04-21T09:31:23.1150803+02:00 0HM84ISMRP4SK:00000002 [INF] Request finished in 28.079ms 200 image/x-icon (791a596a)
+2021-04-21T09:31:24.2970684+02:00 0HM84ISMRP4SF:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/GetAllByTypeID application/x-www-form-urlencoded; charset=UTF-8 4 (ca22a1cb)
+2021-04-21T09:31:24.2989886+02:00 0HM84ISMRP4SF:00000004 [INF] Route matched with "{action = \"GetAllByTypeID\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllByTypeID(System.Nullable`1[System.Int32])" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:31:24.3017859+02:00 0HM84ISMRP4SF:00000004 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:31:24.3036307+02:00 0HM84ISMRP4SF:00000004 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:31:24.3075706+02:00 0HM84ISMRP4SF:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemTypeDTL_ID] AS [DemTypeDtlId], [e].[DemoTypeID], [e].[ChoiceAR], [e].[ChoiceEN], [e].[WeightValue], [e.DemoType].[TypeDescAR], [e.DemoType].[TypeDescEN]
+FROM [DemographicTypeDTL] AS [e]
+INNER JOIN [DemographicType] AS [e.DemoType] ON [e].[DemoTypeID] = [e.DemoType].[DemoTypeID]
+WHERE ([e].[DemoTypeID] = @__id_Value_0) AND ([e].[IsDeleted] = 0)" (0723d8ff)
+2021-04-21T09:31:24.3089707+02:00 0HM84ISMRP4SF:00000004 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 5.8517ms. (50a9e262)
+2021-04-21T09:31:24.3105813+02:00 0HM84ISMRP4SF:00000004 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeDtlVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:31:24.3122436+02:00 0HM84ISMRP4SF:00000004 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" in 11.6651ms (afa2e885)
+2021-04-21T09:31:24.3144024+02:00 0HM84ISMRP4SF:00000004 [INF] Request finished in 16.9311ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:34:33.7007744+02:00 0HM84ISMRP4SL:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/   (ca22a1cb)
+2021-04-21T09:34:33.7028965+02:00 0HM84ISMRP4SL:00000001 [INF] Route matched with "{action = \"Index\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:34:33.7045122+02:00 0HM84ISMRP4SL:00000001 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:34:33.7061390+02:00 0HM84ISMRP4SL:00000001 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.0111ms. (50a9e262)
+2021-04-21T09:34:33.7081107+02:00 0HM84ISMRP4SL:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-04-21T09:34:33.7103463+02:00 0HM84ISMRP4SL:00000001 [INF] Executed ViewResult - view "Index" executed in 2.5154ms. (f66409e9)
+2021-04-21T09:34:33.7119436+02:00 0HM84ISMRP4SL:00000001 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" in 7.4412ms (afa2e885)
+2021-04-21T09:34:33.7137718+02:00 0HM84ISMRP4SL:00000001 [INF] Request finished in 13.074ms 200 text/html; charset=utf-8 (791a596a)
+2021-04-21T09:34:33.7286366+02:00 0HM84ISMRP4SL:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/css/site.css   (ca22a1cb)
+2021-04-21T09:34:33.7298796+02:00 0HM84ISMRP4SM:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/CustomJS/DemoGraph.js   (ca22a1cb)
+2021-04-21T09:34:33.7334870+02:00 0HM84ISMRP4SL:00000002 [INF] Sending file. Request path: '"/css/site.css"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\css\site.css"' (27b0a520)
+2021-04-21T09:34:33.7386055+02:00 0HM84ISMRP4SL:00000002 [INF] Request finished in 9.73ms 200 text/css (791a596a)
+2021-04-21T09:34:33.7428222+02:00 0HM84ISMRP4SM:00000001 [INF] Sending file. Request path: '"/CustomJS/DemoGraph.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\CustomJS\DemoGraph.js"' (27b0a520)
+2021-04-21T09:34:33.7481638+02:00 0HM84ISMRP4SN:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0   (ca22a1cb)
+2021-04-21T09:34:33.7488715+02:00 0HM84ISMRP4SM:00000001 [INF] Request finished in 19.1315ms 200 application/javascript (791a596a)
+2021-04-21T09:34:33.7536894+02:00 0HM84ISMRP4SO:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/js/bootstrap.js   (ca22a1cb)
+2021-04-21T09:34:33.7557831+02:00 0HM84ISMRP4SN:00000001 [INF] Sending file. Request path: '"/js/site.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\js\site.js"' (27b0a520)
+2021-04-21T09:34:33.7662753+02:00 0HM84ISMRP4SN:00000001 [INF] Request finished in 16.1281ms 200 application/javascript (791a596a)
+2021-04-21T09:34:33.7674544+02:00 0HM84ISMRP4SP:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/css/bootstrap.css   (ca22a1cb)
+2021-04-21T09:34:33.7703319+02:00 0HM84ISMRP4SO:00000001 [INF] Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\bootstrap\dist\js\bootstrap.js"' (27b0a520)
+2021-04-21T09:34:33.7720981+02:00 0HM84ISMRP4SQ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/jquery/dist/jquery.js   (ca22a1cb)
+2021-04-21T09:34:33.7758249+02:00 0HM84ISMRP4SO:00000001 [INF] Request finished in 21.467ms 200 application/javascript (791a596a)
+2021-04-21T09:34:33.7870387+02:00 0HM84ISMRP4SP:00000001 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\bootstrap\dist\css\bootstrap.css"' (27b0a520)
+2021-04-21T09:34:33.7923497+02:00 0HM84ISMRP4SP:00000001 [INF] Request finished in 29.308ms 200 text/css (791a596a)
+2021-04-21T09:34:33.7946577+02:00 0HM84ISMRP4SQ:00000001 [INF] Sending file. Request path: '"/lib/jquery/dist/jquery.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\jquery\dist\jquery.js"' (27b0a520)
+2021-04-21T09:34:33.7974677+02:00 0HM84ISMRP4SQ:00000001 [INF] Request finished in 25.9371ms 200 application/javascript (791a596a)
+2021-04-21T09:34:33.8134723+02:00 0HM84ISMRP4SL:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphType/GetAll  0 (ca22a1cb)
+2021-04-21T09:34:33.8145300+02:00 0HM84ISMRP4SM:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/favicon.ico   (ca22a1cb)
+2021-04-21T09:34:33.8168349+02:00 0HM84ISMRP4SL:00000003 [INF] Route matched with "{action = \"GetAll\", controller = \"DemoGraphType\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAll()" on controller "DemoGraph.Controllers.DemoGraphTypeController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:34:33.8198184+02:00 0HM84ISMRP4SM:00000002 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\favicon.ico"' (27b0a520)
+2021-04-21T09:34:33.8216583+02:00 0HM84ISMRP4SL:00000003 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:34:33.8223212+02:00 0HM84ISMRP4SM:00000002 [INF] Request finished in 8.402ms 200 image/x-icon (791a596a)
+2021-04-21T09:34:33.8244409+02:00 0HM84ISMRP4SL:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:34:33.8279641+02:00 0HM84ISMRP4SL:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemoTypeID], [e].[TypeDescAR], [e].[TypeDescEN]
+FROM [DemographicType] AS [e]
+WHERE [e].[IsDeleted] = 0" (0723d8ff)
+2021-04-21T09:34:33.8298593+02:00 0HM84ISMRP4SL:00000003 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 6.4004ms. (50a9e262)
+2021-04-21T09:34:33.8314767+02:00 0HM84ISMRP4SL:00000003 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:34:33.8334965+02:00 0HM84ISMRP4SL:00000003 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" in 14.6956ms (afa2e885)
+2021-04-21T09:34:33.8353190+02:00 0HM84ISMRP4SL:00000003 [INF] Request finished in 23.2618ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:34:36.8930463+02:00 0HM84ISMRP4SN:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-04-21T09:34:36.9473587+02:00 0HM84ISMRP4SN:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-04-21T09:34:36.9497409+02:00 0HM84ISMRP4SN:00000002 [INF] Request finished in 56.8064ms 200 text/plain (791a596a)
+2021-04-21T09:34:41.0287422+02:00 0HM84ISMRP4SO:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/GetAllByTypeID application/x-www-form-urlencoded; charset=UTF-8 4 (ca22a1cb)
+2021-04-21T09:34:41.0317219+02:00 0HM84ISMRP4SO:00000002 [INF] Route matched with "{action = \"GetAllByTypeID\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllByTypeID(System.Nullable`1[System.Int32])" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:34:41.0338846+02:00 0HM84ISMRP4SO:00000002 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:34:41.0357561+02:00 0HM84ISMRP4SO:00000002 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:34:41.0401176+02:00 0HM84ISMRP4SO:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemTypeDTL_ID] AS [DemTypeDtlId], [e].[DemoTypeID], [e].[ChoiceAR], [e].[ChoiceEN], [e].[WeightValue], [e.DemoType].[TypeDescAR], [e.DemoType].[TypeDescEN]
+FROM [DemographicTypeDTL] AS [e]
+INNER JOIN [DemographicType] AS [e.DemoType] ON [e].[DemoTypeID] = [e.DemoType].[DemoTypeID]
+WHERE ([e].[DemoTypeID] = @__id_Value_0) AND ([e].[IsDeleted] = 0)" (0723d8ff)
+2021-04-21T09:34:41.0424356+02:00 0HM84ISMRP4SO:00000002 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 6.458ms. (50a9e262)
+2021-04-21T09:34:41.0453339+02:00 0HM84ISMRP4SO:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeDtlVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:34:41.0486667+02:00 0HM84ISMRP4SO:00000002 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" in 13.8457ms (afa2e885)
+2021-04-21T09:34:41.0510246+02:00 0HM84ISMRP4SO:00000002 [INF] Request finished in 23.4661ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:35:00.4033210+02:00 0HM84ISMRP4SP:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/GetAllByTypeID application/x-www-form-urlencoded; charset=UTF-8 4 (ca22a1cb)
+2021-04-21T09:35:00.4051268+02:00 0HM84ISMRP4SP:00000002 [INF] Route matched with "{action = \"GetAllByTypeID\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllByTypeID(System.Nullable`1[System.Int32])" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:35:00.4076547+02:00 0HM84ISMRP4SP:00000002 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:35:00.4096212+02:00 0HM84ISMRP4SP:00000002 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:35:00.4135862+02:00 0HM84ISMRP4SP:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemTypeDTL_ID] AS [DemTypeDtlId], [e].[DemoTypeID], [e].[ChoiceAR], [e].[ChoiceEN], [e].[WeightValue], [e.DemoType].[TypeDescAR], [e.DemoType].[TypeDescEN]
+FROM [DemographicTypeDTL] AS [e]
+INNER JOIN [DemographicType] AS [e.DemoType] ON [e].[DemoTypeID] = [e.DemoType].[DemoTypeID]
+WHERE ([e].[DemoTypeID] = @__id_Value_0) AND ([e].[IsDeleted] = 0)" (0723d8ff)
+2021-04-21T09:35:00.4174516+02:00 0HM84ISMRP4SP:00000002 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 6.0094ms. (50a9e262)
+2021-04-21T09:35:00.4198681+02:00 0HM84ISMRP4SP:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeDtlVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:35:00.4221981+02:00 0HM84ISMRP4SP:00000002 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" in 14.9781ms (afa2e885)
+2021-04-21T09:35:00.4242624+02:00 0HM84ISMRP4SP:00000002 [INF] Request finished in 20.6979ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:35:12.3978279+02:00 0HM84ISMRP4SQ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-04-21T09:35:12.4241098+02:00 0HM84ISMRP4SQ:00000002 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-04-21T09:35:12.4260084+02:00 0HM84ISMRP4SQ:00000002 [INF] Request finished in 28.3077ms 200 text/plain (791a596a)
+2021-04-21T09:35:39.5272904+02:00 0HM84ISMRP4SO:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/AddORUpdate application/x-www-form-urlencoded; charset=UTF-8 768 (ca22a1cb)
+2021-04-21T09:35:39.5371869+02:00 0HM84ISMRP4SO:00000003 [INF] Route matched with "{action = \"AddORUpdate\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Boolean] AddORUpdate(DemoGraph.ViewModels.DemoGraphVM)" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:35:39.5519062+02:00 0HM84ISMRP4SO:00000003 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.AddORUpdate (DemoGraph)" - Validation state: Invalid (dad538d7)
+2021-04-21T09:40:30.5270341+02:00 0HM84J2UI96QF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/   (ca22a1cb)
+2021-04-21T09:40:30.5270540+02:00 0HM84J2UI96QE:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:51749/  0 (ca22a1cb)
+2021-04-21T09:40:30.5679740+02:00 0HM84J2UI96QE:00000001 [INF] Request finished in 43.1771ms 200  (791a596a)
+2021-04-21T09:40:30.6958603+02:00 0HM84J2UI96QF:00000001 [INF] Route matched with "{action = \"Index\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:40:30.8010043+02:00 0HM84J2UI96QF:00000001 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:40:30.8056840+02:00 0HM84J2UI96QF:00000001 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5014ms. (50a9e262)
+2021-04-21T09:40:30.8268980+02:00 0HM84J2UI96QF:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-04-21T09:40:31.0325919+02:00 0HM84J2UI96QF:00000001 [INF] Executed ViewResult - view "Index" executed in 217.6385ms. (f66409e9)
+2021-04-21T09:40:31.0346021+02:00 0HM84J2UI96QF:00000001 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" in 336.8563ms (afa2e885)
+2021-04-21T09:40:31.0413668+02:00 0HM84J2UI96QF:00000001 [INF] Request finished in 519.5765ms 200 text/html; charset=utf-8 (791a596a)
+2021-04-21T09:40:31.0573171+02:00 0HM84J2UI96QE:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/CustomJS/DemoGraph.js   (ca22a1cb)
+2021-04-21T09:40:31.0714400+02:00 0HM84J2UI96QE:00000002 [INF] Sending file. Request path: '"/CustomJS/DemoGraph.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\CustomJS\DemoGraph.js"' (27b0a520)
+2021-04-21T09:40:31.0752402+02:00 0HM84J2UI96QE:00000002 [INF] Request finished in 17.9842ms 200 application/javascript (791a596a)
+2021-04-21T09:40:31.1342764+02:00 0HM84J2UI96QF:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphType/GetAll  0 (ca22a1cb)
+2021-04-21T09:40:31.1400238+02:00 0HM84J2UI96QF:00000002 [INF] Route matched with "{action = \"GetAll\", controller = \"DemoGraphType\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAll()" on controller "DemoGraph.Controllers.DemoGraphTypeController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:40:31.1423620+02:00 0HM84J2UI96QF:00000002 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:40:31.2869578+02:00 0HM84J2UI96QF:00000002 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:40:31.4547161+02:00 0HM84J2UI96QF:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemoTypeID], [e].[TypeDescAR], [e].[TypeDescEN]
+FROM [DemographicType] AS [e]
+WHERE [e].[IsDeleted] = 0" (0723d8ff)
+2021-04-21T09:40:31.4691938+02:00 0HM84J2UI96QF:00000002 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 324.5916ms. (50a9e262)
+2021-04-21T09:40:31.4739621+02:00 0HM84J2UI96QF:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:40:31.5243015+02:00 0HM84J2UI96QF:00000002 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" in 380.2631ms (afa2e885)
+2021-04-21T09:40:31.5263771+02:00 0HM84J2UI96QF:00000002 [INF] Request finished in 392.1181ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:40:34.6931257+02:00 0HM84J2UI96QE:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/GetAllByTypeID application/x-www-form-urlencoded; charset=UTF-8 4 (ca22a1cb)
+2021-04-21T09:40:34.7039553+02:00 0HM84J2UI96QE:00000003 [INF] Route matched with "{action = \"GetAllByTypeID\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllByTypeID(System.Nullable`1[System.Int32])" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:40:34.7340505+02:00 0HM84J2UI96QE:00000003 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:40:34.7387257+02:00 0HM84J2UI96QE:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:40:34.7601086+02:00 0HM84J2UI96QE:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemTypeDTL_ID] AS [DemTypeDtlId], [e].[DemoTypeID], [e].[ChoiceAR], [e].[ChoiceEN], [e].[WeightValue], [e.DemoType].[TypeDescAR], [e.DemoType].[TypeDescEN]
+FROM [DemographicTypeDTL] AS [e]
+INNER JOIN [DemographicType] AS [e.DemoType] ON [e].[DemoTypeID] = [e.DemoType].[DemoTypeID]
+WHERE ([e].[DemoTypeID] = @__id_Value_0) AND ([e].[IsDeleted] = 0)" (0723d8ff)
+2021-04-21T09:40:34.7657041+02:00 0HM84J2UI96QE:00000003 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 29.9122ms. (50a9e262)
+2021-04-21T09:40:34.7672385+02:00 0HM84J2UI96QE:00000003 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeDtlVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:40:34.7714896+02:00 0HM84J2UI96QE:00000003 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" in 65.9978ms (afa2e885)
+2021-04-21T09:40:34.7731783+02:00 0HM84J2UI96QE:00000003 [INF] Request finished in 80.0914ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:40:37.4111369+02:00 0HM84J2UI96QF:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-04-21T09:40:37.4391187+02:00 0HM84J2UI96QF:00000003 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-04-21T09:40:37.4407230+02:00 0HM84J2UI96QF:00000003 [INF] Request finished in 29.3628ms 200 text/plain (791a596a)
+2021-04-21T09:40:44.4247745+02:00 0HM84J2UI96QE:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/GetAllByTypeID application/x-www-form-urlencoded; charset=UTF-8 4 (ca22a1cb)
+2021-04-21T09:40:44.4275649+02:00 0HM84J2UI96QE:00000004 [INF] Route matched with "{action = \"GetAllByTypeID\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllByTypeID(System.Nullable`1[System.Int32])" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:40:44.4307527+02:00 0HM84J2UI96QE:00000004 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:40:44.4329093+02:00 0HM84J2UI96QE:00000004 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:40:44.4381967+02:00 0HM84J2UI96QE:00000004 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemTypeDTL_ID] AS [DemTypeDtlId], [e].[DemoTypeID], [e].[ChoiceAR], [e].[ChoiceEN], [e].[WeightValue], [e.DemoType].[TypeDescAR], [e.DemoType].[TypeDescEN]
+FROM [DemographicTypeDTL] AS [e]
+INNER JOIN [DemographicType] AS [e.DemoType] ON [e].[DemoTypeID] = [e.DemoType].[DemoTypeID]
+WHERE ([e].[DemoTypeID] = @__id_Value_0) AND ([e].[IsDeleted] = 0)" (0723d8ff)
+2021-04-21T09:40:44.4400537+02:00 0HM84J2UI96QE:00000004 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 7.5195ms. (50a9e262)
+2021-04-21T09:40:44.4427619+02:00 0HM84J2UI96QE:00000004 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeDtlVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:40:44.4456899+02:00 0HM84J2UI96QE:00000004 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" in 15.2757ms (afa2e885)
+2021-04-21T09:40:44.4474172+02:00 0HM84J2UI96QE:00000004 [INF] Request finished in 22.8247ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:40:48.9778165+02:00 0HM84J2UI96QF:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-04-21T09:40:49.0046786+02:00 0HM84J2UI96QF:00000004 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-04-21T09:40:49.0061399+02:00 0HM84J2UI96QF:00000004 [INF] Request finished in 28.7478ms 200 text/plain (791a596a)
+2021-04-21T09:42:49.5429016+02:00 0HM84J2UI96QG:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/AddORUpdate application/x-www-form-urlencoded; charset=UTF-8 768 (ca22a1cb)
+2021-04-21T09:42:49.5548402+02:00 0HM84J2UI96QG:00000001 [INF] Route matched with "{action = \"AddORUpdate\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Boolean] AddORUpdate(DemoGraph.ViewModels.DemoGraphVM)" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:42:49.5676528+02:00 0HM84J2UI96QG:00000001 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.AddORUpdate (DemoGraph)" - Validation state: Invalid (dad538d7)
+2021-04-21T09:42:58.2670387+02:00 0HM84J4AJ3T9A:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/   (ca22a1cb)
+2021-04-21T09:42:58.2670187+02:00 0HM84J4AJ3T99:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:51749/  0 (ca22a1cb)
+2021-04-21T09:42:58.3058373+02:00 0HM84J4AJ3T99:00000001 [INF] Request finished in 44.5835ms 200  (791a596a)
+2021-04-21T09:42:58.4313836+02:00 0HM84J4AJ3T9A:00000001 [INF] Route matched with "{action = \"Index\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:42:58.5357116+02:00 0HM84J4AJ3T9A:00000001 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:42:58.5401924+02:00 0HM84J4AJ3T9A:00000001 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4554ms. (50a9e262)
+2021-04-21T09:42:58.5645305+02:00 0HM84J4AJ3T9A:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-04-21T09:42:58.7652310+02:00 0HM84J4AJ3T9A:00000001 [INF] Executed ViewResult - view "Index" executed in 216.5308ms. (f66409e9)
+2021-04-21T09:42:58.7671824+02:00 0HM84J4AJ3T9A:00000001 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" in 333.9377ms (afa2e885)
+2021-04-21T09:42:58.7734308+02:00 0HM84J4AJ3T9A:00000001 [INF] Request finished in 513.6003ms 200 text/html; charset=utf-8 (791a596a)
+2021-04-21T09:42:58.7883222+02:00 0HM84J4AJ3T99:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/CustomJS/DemoGraph.js   (ca22a1cb)
+2021-04-21T09:42:58.7945347+02:00 0HM84J4AJ3T99:00000002 [INF] The file "/CustomJS/DemoGraph.js" was not modified (f1f8d725)
+2021-04-21T09:42:58.7982524+02:00 0HM84J4AJ3T99:00000002 [INF] Request finished in 9.6315ms 304 application/javascript (791a596a)
+2021-04-21T09:42:58.8371971+02:00 0HM84J4AJ3T9A:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphType/GetAll  0 (ca22a1cb)
+2021-04-21T09:42:58.8428116+02:00 0HM84J4AJ3T9A:00000002 [INF] Route matched with "{action = \"GetAll\", controller = \"DemoGraphType\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAll()" on controller "DemoGraph.Controllers.DemoGraphTypeController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:42:58.8461110+02:00 0HM84J4AJ3T9A:00000002 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:42:58.9862335+02:00 0HM84J4AJ3T9A:00000002 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:42:59.1484391+02:00 0HM84J4AJ3T9A:00000002 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemoTypeID], [e].[TypeDescAR], [e].[TypeDescEN]
+FROM [DemographicType] AS [e]
+WHERE [e].[IsDeleted] = 0" (0723d8ff)
+2021-04-21T09:42:59.1596263+02:00 0HM84J4AJ3T9A:00000002 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 311.8655ms. (50a9e262)
+2021-04-21T09:42:59.1638067+02:00 0HM84J4AJ3T9A:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:42:59.2097816+02:00 0HM84J4AJ3T9A:00000002 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" in 365.3898ms (afa2e885)
+2021-04-21T09:42:59.2116673+02:00 0HM84J4AJ3T9A:00000002 [INF] Request finished in 374.8754ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:43:00.9537437+02:00 0HM84J4AJ3T99:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/GetAllByTypeID application/x-www-form-urlencoded; charset=UTF-8 4 (ca22a1cb)
+2021-04-21T09:43:00.9635997+02:00 0HM84J4AJ3T99:00000003 [INF] Route matched with "{action = \"GetAllByTypeID\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllByTypeID(System.Nullable`1[System.Int32])" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:43:00.9926759+02:00 0HM84J4AJ3T99:00000003 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:43:00.9991109+02:00 0HM84J4AJ3T99:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:43:01.0211647+02:00 0HM84J4AJ3T99:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemTypeDTL_ID] AS [DemTypeDtlId], [e].[DemoTypeID], [e].[ChoiceAR], [e].[ChoiceEN], [e].[WeightValue], [e.DemoType].[TypeDescAR], [e.DemoType].[TypeDescEN]
+FROM [DemographicTypeDTL] AS [e]
+INNER JOIN [DemographicType] AS [e.DemoType] ON [e].[DemoTypeID] = [e.DemoType].[DemoTypeID]
+WHERE ([e].[DemoTypeID] = @__id_Value_0) AND ([e].[IsDeleted] = 0)" (0723d8ff)
+2021-04-21T09:43:01.0266195+02:00 0HM84J4AJ3T99:00000003 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 32.4052ms. (50a9e262)
+2021-04-21T09:43:01.0280646+02:00 0HM84J4AJ3T99:00000003 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeDtlVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:43:01.0321830+02:00 0HM84J4AJ3T99:00000003 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" in 67.0793ms (afa2e885)
+2021-04-21T09:43:01.0338686+02:00 0HM84J4AJ3T99:00000003 [INF] Request finished in 80.2379ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:43:05.8659985+02:00 0HM84J4AJ3T9A:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-04-21T09:43:05.8972720+02:00 0HM84J4AJ3T9A:00000003 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-04-21T09:43:05.9006957+02:00 0HM84J4AJ3T9A:00000003 [INF] Request finished in 35.1154ms 200 text/plain (791a596a)
+2021-04-21T09:46:49.9062632+02:00 0HM84J6FK7MDC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/   (ca22a1cb)
+2021-04-21T09:46:49.9062901+02:00 0HM84J6FK7MDD:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:51749/  0 (ca22a1cb)
+2021-04-21T09:46:49.9442946+02:00 0HM84J6FK7MDD:00000001 [INF] Request finished in 42.3047ms 200  (791a596a)
+2021-04-21T09:46:50.0640867+02:00 0HM84J6FK7MDC:00000001 [INF] Route matched with "{action = \"Index\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:46:50.1723809+02:00 0HM84J6FK7MDC:00000001 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:46:50.1772001+02:00 0HM84J6FK7MDC:00000001 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4486ms. (50a9e262)
+2021-04-21T09:46:50.2013510+02:00 0HM84J6FK7MDC:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-04-21T09:46:50.3999766+02:00 0HM84J6FK7MDC:00000001 [INF] Executed ViewResult - view "Index" executed in 213.8349ms. (f66409e9)
+2021-04-21T09:46:50.4018140+02:00 0HM84J6FK7MDC:00000001 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" in 335.9666ms (afa2e885)
+2021-04-21T09:46:50.4083533+02:00 0HM84J6FK7MDC:00000001 [INF] Request finished in 507.4903ms 200 text/html; charset=utf-8 (791a596a)
+2021-04-21T09:46:50.4209130+02:00 0HM84J6FK7MDD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/CustomJS/DemoGraph.js   (ca22a1cb)
+2021-04-21T09:46:50.4354044+02:00 0HM84J6FK7MDD:00000002 [INF] Sending file. Request path: '"/CustomJS/DemoGraph.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\CustomJS\DemoGraph.js"' (27b0a520)
+2021-04-21T09:46:50.4390812+02:00 0HM84J6FK7MDD:00000002 [INF] Request finished in 18.0267ms 200 application/javascript (791a596a)
+2021-04-21T09:46:50.4678412+02:00 0HM84J6FK7MDC:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphType/GetAll  0 (ca22a1cb)
+2021-04-21T09:46:50.4733022+02:00 0HM84J6FK7MDC:00000002 [INF] Route matched with "{action = \"GetAll\", controller = \"DemoGraphType\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAll()" on controller "DemoGraph.Controllers.DemoGraphTypeController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:46:50.4755983+02:00 0HM84J6FK7MDC:00000002 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:46:50.6188195+02:00 0HM84J6FK7MDC:00000002 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:46:50.7813459+02:00 0HM84J6FK7MDC:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemoTypeID], [e].[TypeDescAR], [e].[TypeDescEN]
+FROM [DemographicType] AS [e]
+WHERE [e].[IsDeleted] = 0" (0723d8ff)
+2021-04-21T09:46:50.7922825+02:00 0HM84J6FK7MDC:00000002 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 315.252ms. (50a9e262)
+2021-04-21T09:46:50.7964028+02:00 0HM84J6FK7MDC:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:46:50.8452475+02:00 0HM84J6FK7MDC:00000002 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" in 369.572ms (afa2e885)
+2021-04-21T09:46:50.8494517+02:00 0HM84J6FK7MDC:00000002 [INF] Request finished in 381.779ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:46:52.4168931+02:00 0HM84J6FK7MDD:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/GetAllByTypeID application/x-www-form-urlencoded; charset=UTF-8 4 (ca22a1cb)
+2021-04-21T09:46:52.4268330+02:00 0HM84J6FK7MDD:00000003 [INF] Route matched with "{action = \"GetAllByTypeID\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllByTypeID(System.Nullable`1[System.Int32])" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:46:52.4571907+02:00 0HM84J6FK7MDD:00000003 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:46:52.4608040+02:00 0HM84J6FK7MDD:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:46:52.4816380+02:00 0HM84J6FK7MDD:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemTypeDTL_ID] AS [DemTypeDtlId], [e].[DemoTypeID], [e].[ChoiceAR], [e].[ChoiceEN], [e].[WeightValue], [e.DemoType].[TypeDescAR], [e.DemoType].[TypeDescEN]
+FROM [DemographicTypeDTL] AS [e]
+INNER JOIN [DemographicType] AS [e.DemoType] ON [e].[DemoTypeID] = [e.DemoType].[DemoTypeID]
+WHERE ([e].[DemoTypeID] = @__id_Value_0) AND ([e].[IsDeleted] = 0)" (0723d8ff)
+2021-04-21T09:46:52.4868732+02:00 0HM84J6FK7MDD:00000003 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 28.2192ms. (50a9e262)
+2021-04-21T09:46:52.4884182+02:00 0HM84J6FK7MDD:00000003 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeDtlVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:46:52.4926708+02:00 0HM84J6FK7MDD:00000003 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" in 64.2785ms (afa2e885)
+2021-04-21T09:46:52.4941868+02:00 0HM84J6FK7MDD:00000003 [INF] Request finished in 78.0792ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:46:56.7777722+02:00 0HM84J6FK7MDC:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-04-21T09:46:56.8053305+02:00 0HM84J6FK7MDC:00000003 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-04-21T09:46:56.8068788+02:00 0HM84J6FK7MDC:00000003 [INF] Request finished in 29.1234ms 200 text/plain (791a596a)
+2021-04-21T09:47:20.9569564+02:00 0HM84J6FK7MDD:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/AddORUpdate application/x-www-form-urlencoded; charset=UTF-8 770 (ca22a1cb)
+2021-04-21T09:47:20.9661451+02:00 0HM84J6FK7MDD:00000004 [INF] Route matched with "{action = \"AddORUpdate\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Boolean] AddORUpdate(DemoGraph.ViewModels.DemoGraphVM)" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:47:20.9816785+02:00 0HM84J6FK7MDD:00000004 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.AddORUpdate (DemoGraph)" - Validation state: Invalid (dad538d7)
+2021-04-21T09:49:30.2629693+02:00 0HM84J7VDGVTF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/   (ca22a1cb)
+2021-04-21T09:49:30.2629874+02:00 0HM84J7VDGVTE:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:51749/  0 (ca22a1cb)
+2021-04-21T09:49:30.3001983+02:00 0HM84J7VDGVTE:00000001 [INF] Request finished in 41.8113ms 200  (791a596a)
+2021-04-21T09:49:30.4245811+02:00 0HM84J7VDGVTF:00000001 [INF] Route matched with "{action = \"Index\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:49:30.5282688+02:00 0HM84J7VDGVTF:00000001 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:49:30.5327817+02:00 0HM84J7VDGVTF:00000001 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.4799ms. (50a9e262)
+2021-04-21T09:49:30.5541706+02:00 0HM84J7VDGVTF:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-04-21T09:49:30.7567170+02:00 0HM84J7VDGVTF:00000001 [INF] Executed ViewResult - view "Index" executed in 214.4919ms. (f66409e9)
+2021-04-21T09:49:30.7585158+02:00 0HM84J7VDGVTF:00000001 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" in 332.2199ms (afa2e885)
+2021-04-21T09:49:30.7650220+02:00 0HM84J7VDGVTF:00000001 [INF] Request finished in 507.8862ms 200 text/html; charset=utf-8 (791a596a)
+2021-04-21T09:49:30.7798067+02:00 0HM84J7VDGVTE:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/CustomJS/DemoGraph.js   (ca22a1cb)
+2021-04-21T09:49:30.7944075+02:00 0HM84J7VDGVTE:00000002 [INF] Sending file. Request path: '"/CustomJS/DemoGraph.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\CustomJS\DemoGraph.js"' (27b0a520)
+2021-04-21T09:49:30.7977233+02:00 0HM84J7VDGVTE:00000002 [INF] Request finished in 18.0041ms 200 application/javascript (791a596a)
+2021-04-21T09:49:30.8240604+02:00 0HM84J7VDGVTF:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphType/GetAll  0 (ca22a1cb)
+2021-04-21T09:49:30.8294398+02:00 0HM84J7VDGVTF:00000002 [INF] Route matched with "{action = \"GetAll\", controller = \"DemoGraphType\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAll()" on controller "DemoGraph.Controllers.DemoGraphTypeController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:49:30.8317267+02:00 0HM84J7VDGVTF:00000002 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:49:30.9753427+02:00 0HM84J7VDGVTF:00000002 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:49:31.1313842+02:00 0HM84J7VDGVTF:00000002 [INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemoTypeID], [e].[TypeDescAR], [e].[TypeDescEN]
+FROM [DemographicType] AS [e]
+WHERE [e].[IsDeleted] = 0" (0723d8ff)
+2021-04-21T09:49:31.1428632+02:00 0HM84J7VDGVTF:00000002 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 309.3116ms. (50a9e262)
+2021-04-21T09:49:31.1477471+02:00 0HM84J7VDGVTF:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:49:31.1957182+02:00 0HM84J7VDGVTF:00000002 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" in 364.4315ms (afa2e885)
+2021-04-21T09:49:31.1976129+02:00 0HM84J7VDGVTF:00000002 [INF] Request finished in 373.5077ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:49:32.5776708+02:00 0HM84J7VDGVTE:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/GetAllByTypeID application/x-www-form-urlencoded; charset=UTF-8 4 (ca22a1cb)
+2021-04-21T09:49:32.5917232+02:00 0HM84J7VDGVTE:00000003 [INF] Route matched with "{action = \"GetAllByTypeID\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllByTypeID(System.Nullable`1[System.Int32])" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:49:32.6225971+02:00 0HM84J7VDGVTE:00000003 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:49:32.6261668+02:00 0HM84J7VDGVTE:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:49:32.6469076+02:00 0HM84J7VDGVTE:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemTypeDTL_ID] AS [DemTypeDtlId], [e].[DemoTypeID], [e].[ChoiceAR], [e].[ChoiceEN], [e].[WeightValue], [e.DemoType].[TypeDescAR], [e.DemoType].[TypeDescEN]
+FROM [DemographicTypeDTL] AS [e]
+INNER JOIN [DemographicType] AS [e.DemoType] ON [e].[DemoTypeID] = [e.DemoType].[DemoTypeID]
+WHERE ([e].[DemoTypeID] = @__id_Value_0) AND ([e].[IsDeleted] = 0)" (0723d8ff)
+2021-04-21T09:49:32.6524726+02:00 0HM84J7VDGVTE:00000003 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 28.4444ms. (50a9e262)
+2021-04-21T09:49:32.6544786+02:00 0HM84J7VDGVTE:00000003 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeDtlVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:49:32.6586077+02:00 0HM84J7VDGVTE:00000003 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" in 65.5004ms (afa2e885)
+2021-04-21T09:49:32.6601098+02:00 0HM84J7VDGVTE:00000003 [INF] Request finished in 82.8813ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:49:37.9007932+02:00 0HM84J7VDGVTF:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/AddORUpdate application/x-www-form-urlencoded; charset=UTF-8 894 (ca22a1cb)
+2021-04-21T09:49:37.9127735+02:00 0HM84J7VDGVTF:00000003 [INF] Route matched with "{action = \"AddORUpdate\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Boolean] AddORUpdate(DemoGraph.ViewModels.DemoGraphVM)" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:49:37.9261747+02:00 0HM84J7VDGVTF:00000003 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.AddORUpdate (DemoGraph)" - Validation state: Invalid (dad538d7)
+2021-04-21T09:52:30.9539271+02:00 0HM84J9L8LFDJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/   (ca22a1cb)
+2021-04-21T09:52:30.9539142+02:00 0HM84J9L8LFDI:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:51749/  0 (ca22a1cb)
+2021-04-21T09:52:30.9934429+02:00 0HM84J9L8LFDI:00000001 [INF] Request finished in 43.7401ms 200  (791a596a)
+2021-04-21T09:52:31.1138251+02:00 0HM84J9L8LFDJ:00000001 [INF] Route matched with "{action = \"Index\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:52:31.2201585+02:00 0HM84J9L8LFDJ:00000001 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:52:31.2248810+02:00 0HM84J9L8LFDJ:00000001 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5141ms. (50a9e262)
+2021-04-21T09:52:31.2454106+02:00 0HM84J9L8LFDJ:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-04-21T09:52:31.4430620+02:00 0HM84J9L8LFDJ:00000001 [INF] Executed ViewResult - view "Index" executed in 210.2867ms. (f66409e9)
+2021-04-21T09:52:31.4447793+02:00 0HM84J9L8LFDJ:00000001 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" in 329.3275ms (afa2e885)
+2021-04-21T09:52:31.4513938+02:00 0HM84J9L8LFDJ:00000001 [INF] Request finished in 503.2037ms 200 text/html; charset=utf-8 (791a596a)
+2021-04-21T09:52:31.4662290+02:00 0HM84J9L8LFDI:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/CustomJS/DemoGraph.js   (ca22a1cb)
+2021-04-21T09:52:31.4811860+02:00 0HM84J9L8LFDI:00000002 [INF] Sending file. Request path: '"/CustomJS/DemoGraph.js"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\CustomJS\DemoGraph.js"' (27b0a520)
+2021-04-21T09:52:31.4850830+02:00 0HM84J9L8LFDI:00000002 [INF] Request finished in 18.5694ms 200 application/javascript (791a596a)
+2021-04-21T09:52:31.5109753+02:00 0HM84J9L8LFDJ:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphType/GetAll  0 (ca22a1cb)
+2021-04-21T09:52:31.5165078+02:00 0HM84J9L8LFDJ:00000002 [INF] Route matched with "{action = \"GetAll\", controller = \"DemoGraphType\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAll()" on controller "DemoGraph.Controllers.DemoGraphTypeController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:52:31.5197454+02:00 0HM84J9L8LFDJ:00000002 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:52:31.6615359+02:00 0HM84J9L8LFDJ:00000002 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:52:31.8249383+02:00 0HM84J9L8LFDJ:00000002 [INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemoTypeID], [e].[TypeDescAR], [e].[TypeDescEN]
+FROM [DemographicType] AS [e]
+WHERE [e].[IsDeleted] = 0" (0723d8ff)
+2021-04-21T09:52:31.8370315+02:00 0HM84J9L8LFDJ:00000002 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 315.2123ms. (50a9e262)
+2021-04-21T09:52:31.8415194+02:00 0HM84J9L8LFDJ:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:52:31.8875727+02:00 0HM84J9L8LFDJ:00000002 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" in 369.3951ms (afa2e885)
+2021-04-21T09:52:31.8919019+02:00 0HM84J9L8LFDJ:00000002 [INF] Request finished in 379.4278ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:52:33.0100338+02:00 0HM84J9L8LFDI:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/GetAllByTypeID application/x-www-form-urlencoded; charset=UTF-8 4 (ca22a1cb)
+2021-04-21T09:52:33.0205138+02:00 0HM84J9L8LFDI:00000003 [INF] Route matched with "{action = \"GetAllByTypeID\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllByTypeID(System.Nullable`1[System.Int32])" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:52:33.0494504+02:00 0HM84J9L8LFDI:00000003 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:52:33.0532987+02:00 0HM84J9L8LFDI:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:52:33.0743670+02:00 0HM84J9L8LFDI:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemTypeDTL_ID] AS [DemTypeDtlId], [e].[DemoTypeID], [e].[ChoiceAR], [e].[ChoiceEN], [e].[WeightValue], [e.DemoType].[TypeDescAR], [e.DemoType].[TypeDescEN]
+FROM [DemographicTypeDTL] AS [e]
+INNER JOIN [DemographicType] AS [e.DemoType] ON [e].[DemoTypeID] = [e.DemoType].[DemoTypeID]
+WHERE ([e].[DemoTypeID] = @__id_Value_0) AND ([e].[IsDeleted] = 0)" (0723d8ff)
+2021-04-21T09:52:33.0796453+02:00 0HM84J9L8LFDI:00000003 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 28.7461ms. (50a9e262)
+2021-04-21T09:52:33.0813920+02:00 0HM84J9L8LFDI:00000003 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeDtlVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:52:33.0865369+02:00 0HM84J9L8LFDI:00000003 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" in 63.5065ms (afa2e885)
+2021-04-21T09:52:33.0884079+02:00 0HM84J9L8LFDI:00000003 [INF] Request finished in 78.3644ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:52:36.7534070+02:00 0HM84J9L8LFDJ:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-04-21T09:52:36.7829063+02:00 0HM84J9L8LFDJ:00000003 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-04-21T09:52:36.7846717+02:00 0HM84J9L8LFDJ:00000003 [INF] Request finished in 31.0423ms 200 text/plain (791a596a)
+2021-04-21T09:53:00.3994615+02:00 0HM84J9L8LFDI:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/AddORUpdate application/x-www-form-urlencoded; charset=UTF-8 895 (ca22a1cb)
+2021-04-21T09:53:00.4098025+02:00 0HM84J9L8LFDI:00000004 [INF] Route matched with "{action = \"AddORUpdate\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Boolean] AddORUpdate(DemoGraph.ViewModels.DemoGraphVM)" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:53:00.4245402+02:00 0HM84J9L8LFDI:00000004 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.AddORUpdate (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:53:13.5848616+02:00 0HM84J9L8LFDI:00000004 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:53:13.6007697+02:00 0HM84J9L8LFDI:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[DemoTypeID], [e].[CreatedBy], [e].[CreatedDate], [e].[IsDeleted], [e].[TypeDescAR], [e].[TypeDescEN], [e].[UpdatedBy], [e].[UpdatedDate]
+FROM [DemographicType] AS [e]
+WHERE [e].[DemoTypeID] = @__get_Item_0" (0723d8ff)
+2021-04-21T09:53:33.7576081+02:00 0HM84J9L8LFDI:00000004 [INF] Executed DbCommand ("8"ms) [Parameters=["@p2='?' (DbType = Int32), @p0='?' (Size = 150), @p1='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [DemographicType] SET [UpdatedBy] = @p0, [UpdatedDate] = @p1
+WHERE [DemoTypeID] = @p2;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2021-04-21T09:54:40.9550434+02:00 0HM84JAS0JGNT:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:51749/  0 (ca22a1cb)
+2021-04-21T09:54:40.9550434+02:00 0HM84JAS0JGNS:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44382/   (ca22a1cb)
+2021-04-21T09:54:40.9966823+02:00 0HM84JAS0JGNT:00000001 [INF] Request finished in 43.0463ms 200  (791a596a)
+2021-04-21T09:54:41.1190888+02:00 0HM84JAS0JGNS:00000001 [INF] Route matched with "{action = \"Index\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult Index()" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:54:41.2203825+02:00 0HM84JAS0JGNS:00000001 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:54:41.2249806+02:00 0HM84JAS0JGNS:00000001 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.5056ms. (50a9e262)
+2021-04-21T09:54:41.2487080+02:00 0HM84JAS0JGNS:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2021-04-21T09:54:41.4485424+02:00 0HM84JAS0JGNS:00000001 [INF] Executed ViewResult - view "Index" executed in 215.2656ms. (f66409e9)
+2021-04-21T09:54:41.4509918+02:00 0HM84JAS0JGNS:00000001 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.Index (DemoGraph)" in 329.608ms (afa2e885)
+2021-04-21T09:54:41.4573551+02:00 0HM84JAS0JGNS:00000001 [INF] Request finished in 507.9824ms 200 text/html; charset=utf-8 (791a596a)
+2021-04-21T09:54:41.4731015+02:00 0HM84JAS0JGNT:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44382/CustomJS/DemoGraph.js   (ca22a1cb)
+2021-04-21T09:54:41.4786152+02:00 0HM84JAS0JGNT:00000002 [INF] The file "/CustomJS/DemoGraph.js" was not modified (f1f8d725)
+2021-04-21T09:54:41.4826900+02:00 0HM84JAS0JGNT:00000002 [INF] Request finished in 9.0808ms 304 application/javascript (791a596a)
+2021-04-21T09:54:41.5172684+02:00 0HM84JAS0JGNS:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphType/GetAll  0 (ca22a1cb)
+2021-04-21T09:54:41.5229662+02:00 0HM84JAS0JGNS:00000002 [INF] Route matched with "{action = \"GetAll\", controller = \"DemoGraphType\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAll()" on controller "DemoGraph.Controllers.DemoGraphTypeController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:54:41.5253921+02:00 0HM84JAS0JGNS:00000002 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:54:41.6693103+02:00 0HM84JAS0JGNS:00000002 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:54:41.8272708+02:00 0HM84JAS0JGNS:00000002 [INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemoTypeID], [e].[TypeDescAR], [e].[TypeDescEN]
+FROM [DemographicType] AS [e]
+WHERE [e].[IsDeleted] = 0" (0723d8ff)
+2021-04-21T09:54:41.8386274+02:00 0HM84JAS0JGNS:00000002 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 311.5164ms. (50a9e262)
+2021-04-21T09:54:41.8429355+02:00 0HM84JAS0JGNS:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:54:41.8891450+02:00 0HM84JAS0JGNS:00000002 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" in 364.5124ms (afa2e885)
+2021-04-21T09:54:41.8910323+02:00 0HM84JAS0JGNS:00000002 [INF] Request finished in 374.9472ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:55:39.8027178+02:00 0HM84JAS0JGNT:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/GetAllByTypeID application/x-www-form-urlencoded; charset=UTF-8 4 (ca22a1cb)
+2021-04-21T09:55:39.8150018+02:00 0HM84JAS0JGNT:00000003 [INF] Route matched with "{action = \"GetAllByTypeID\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllByTypeID(System.Nullable`1[System.Int32])" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:55:39.8443017+02:00 0HM84JAS0JGNT:00000003 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:55:39.8516085+02:00 0HM84JAS0JGNT:00000003 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:55:39.8751121+02:00 0HM84JAS0JGNT:00000003 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemTypeDTL_ID] AS [DemTypeDtlId], [e].[DemoTypeID], [e].[ChoiceAR], [e].[ChoiceEN], [e].[WeightValue], [e.DemoType].[TypeDescAR], [e.DemoType].[TypeDescEN]
+FROM [DemographicTypeDTL] AS [e]
+INNER JOIN [DemographicType] AS [e.DemoType] ON [e].[DemoTypeID] = [e.DemoType].[DemoTypeID]
+WHERE ([e].[DemoTypeID] = @__id_Value_0) AND ([e].[IsDeleted] = 0)" (0723d8ff)
+2021-04-21T09:55:39.8807406+02:00 0HM84JAS0JGNT:00000003 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 34.8051ms. (50a9e262)
+2021-04-21T09:55:39.8823015+02:00 0HM84JAS0JGNT:00000003 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeDtlVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:55:39.8866163+02:00 0HM84JAS0JGNT:00000003 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.GetAllByTypeID (DemoGraph)" in 70.1087ms (afa2e885)
+2021-04-21T09:55:39.8883114+02:00 0HM84JAS0JGNT:00000003 [INF] Request finished in 86.0085ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:55:45.8092422+02:00 0HM84JAS0JGNT:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44382/lib/bootstrap/dist/css/bootstrap.css.map   (ca22a1cb)
+2021-04-21T09:55:45.8343463+02:00 0HM84JAS0JGNT:00000004 [INF] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.css.map"'. Physical path: '"D:\DemoGraph\DemoGraph\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map"' (27b0a520)
+2021-04-21T09:55:45.8380647+02:00 0HM84JAS0JGNT:00000004 [INF] Request finished in 28.5591ms 200 text/plain (791a596a)
+2021-04-21T09:55:49.8518922+02:00 0HM84JAS0JGNT:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphTypeDTL/AddORUpdate application/x-www-form-urlencoded; charset=UTF-8 895 (ca22a1cb)
+2021-04-21T09:55:49.8613288+02:00 0HM84JAS0JGNT:00000005 [INF] Route matched with "{action = \"AddORUpdate\", controller = \"DemoGraphTypeDTL\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Boolean] AddORUpdate(DemoGraph.ViewModels.DemoGraphVM)" on controller "DemoGraph.Controllers.DemoGraphTypeDTLController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:55:49.8775414+02:00 0HM84JAS0JGNT:00000005 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeDTLController.AddORUpdate (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:55:54.6452086+02:00 0HM84JAS0JGNT:00000005 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:55:54.6621129+02:00 0HM84JAS0JGNT:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[DemoTypeID], [e].[CreatedBy], [e].[CreatedDate], [e].[IsDeleted], [e].[TypeDescAR], [e].[TypeDescEN], [e].[UpdatedBy], [e].[UpdatedDate]
+FROM [DemographicType] AS [e]
+WHERE [e].[DemoTypeID] = @__get_Item_0" (0723d8ff)
+2021-04-21T09:55:54.7498841+02:00 0HM84JAS0JGNT:00000005 [INF] Executed DbCommand ("8"ms) [Parameters=["@p1='?' (DbType = Int32), @p0='?' (DbType = DateTime)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [DemographicType] SET [UpdatedDate] = @p0
+WHERE [DemoTypeID] = @p1;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2021-04-21T09:56:55.5580930+02:00 0HM84JAS0JGNT:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_Value_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemTypeDTL_ID] AS [DemTypeDtlId], [e].[DemoTypeID], [e].[ChoiceAR], [e].[ChoiceEN], [e].[WeightValue], [e.DemoType].[TypeDescAR], [e.DemoType].[TypeDescEN]
+FROM [DemographicTypeDTL] AS [e]
+INNER JOIN [DemographicType] AS [e.DemoType] ON [e].[DemoTypeID] = [e.DemoType].[DemoTypeID]
+WHERE ([e].[DemoTypeID] = @__id_Value_0) AND ([e].[IsDeleted] = 0)" (0723d8ff)
+2021-04-21T09:58:53.6660035+02:00 0HM84JAS0JGNT:00000005 [INF] Executed DbCommand ("157"ms) [Parameters=["@p9='?' (DbType = Int32), @p0='?' (Size = 150), @p1='?' (Size = 150), @p2='?' (Size = 150), @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Boolean), @p6='?' (Size = 150), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [DemographicTypeDTL] SET [ChoiceAR] = @p0, [ChoiceEN] = @p1, [CreatedBy] = @p2, [CreatedDate] = @p3, [DemoTypeID] = @p4, [IsDeleted] = @p5, [UpdatedBy] = @p6, [UpdatedDate] = @p7, [WeightValue] = @p8
+WHERE [DemTypeDTL_ID] = @p9;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2021-04-21T09:58:53.6706868+02:00 0HM84JAS0JGNT:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=["@p9='?' (DbType = Int32), @p0='?' (Size = 150), @p1='?' (Size = 150), @p2='?' (Size = 150), @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Boolean), @p6='?' (Size = 150), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [DemographicTypeDTL] SET [ChoiceAR] = @p0, [ChoiceEN] = @p1, [CreatedBy] = @p2, [CreatedDate] = @p3, [DemoTypeID] = @p4, [IsDeleted] = @p5, [UpdatedBy] = @p6, [UpdatedDate] = @p7, [WeightValue] = @p8
+WHERE [DemTypeDTL_ID] = @p9;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2021-04-21T09:58:53.6728807+02:00 0HM84JAS0JGNT:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@p9='?' (DbType = Int32), @p0='?' (Size = 150), @p1='?' (Size = 150), @p2='?' (Size = 150), @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Boolean), @p6='?' (Size = 150), @p7='?' (DbType = DateTime), @p8='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+UPDATE [DemographicTypeDTL] SET [ChoiceAR] = @p0, [ChoiceEN] = @p1, [CreatedBy] = @p2, [CreatedDate] = @p3, [DemoTypeID] = @p4, [IsDeleted] = @p5, [UpdatedBy] = @p6, [UpdatedDate] = @p7, [WeightValue] = @p8
+WHERE [DemTypeDTL_ID] = @p9;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2021-04-21T09:58:58.5847110+02:00 0HM84JAS0JGNT:00000005 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeDTLController.AddORUpdate (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 188705.6036ms. (50a9e262)
+2021-04-21T09:58:58.5905066+02:00 0HM84JAS0JGNT:00000005 [INF] Executing ObjectResult, writing value of type '"System.Boolean"'. (8a1b66c8)
+2021-04-21T09:58:58.5941597+02:00 0HM84JAS0JGNT:00000005 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeDTLController.AddORUpdate (DemoGraph)" in 188731.3493ms (afa2e885)
+2021-04-21T09:58:58.5968141+02:00 0HM84JAS0JGNT:00000005 [INF] Request finished in 188746.7862ms 200 application/json; charset=utf-8 (791a596a)
+2021-04-21T09:58:58.6281877+02:00 0HM84JAS0JGNT:00000006 [INF] Request starting HTTP/1.1 POST http://localhost:44382/DemoGraphType/GetAll  0 (ca22a1cb)
+2021-04-21T09:58:58.6429202+02:00 0HM84JAS0JGNT:00000006 [INF] Route matched with "{action = \"GetAll\", controller = \"DemoGraphType\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.ActionResult GetAll()" on controller "DemoGraph.Controllers.DemoGraphTypeController" ("DemoGraph"). (122b2fdf)
+2021-04-21T09:58:58.6577411+02:00 0HM84JAS0JGNT:00000006 [INF] Executing action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" - Validation state: Valid (dad538d7)
+2021-04-21T09:58:58.6866049+02:00 0HM84JAS0JGNT:00000006 [INF] Entity Framework Core "2.1.14-servicing-32113" initialized '"DemoGraphContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2021-04-21T09:58:58.7177283+02:00 0HM84JAS0JGNT:00000006 [INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[DemoTypeID], [e].[TypeDescAR], [e].[TypeDescEN]
+FROM [DemographicType] AS [e]
+WHERE [e].[IsDeleted] = 0" (0723d8ff)
+2021-04-21T09:58:58.7329876+02:00 0HM84JAS0JGNT:00000006 [INF] Executed action method "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 59.4061ms. (50a9e262)
+2021-04-21T09:58:58.7475441+02:00 0HM84JAS0JGNT:00000006 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[DemoGraph.ViewModels.DemographicTypeVM, DemoGraph, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2021-04-21T09:58:58.7637128+02:00 0HM84JAS0JGNT:00000006 [INF] Executed action "DemoGraph.Controllers.DemoGraphTypeController.GetAll (DemoGraph)" in 104.8061ms (afa2e885)
+2021-04-21T09:58:58.7784955+02:00 0HM84JAS0JGNT:00000006 [INF] Request finished in 150.9278ms 200 application/json; charset=utf-8 (791a596a)
